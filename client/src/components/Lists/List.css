@@ -1,0 +1,50 @@
+a {
+  color: black;
+}
+
+.tag {
+  margin-left: 22px;
+}
+
+.listItem {
+  border: 1px solid #ededee;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.listItem:hover {
+  background-color: rgb(245, 232, 238);
+}
+
+.listContent {
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .listItem {
+    display: flex;
+    flex-direction: column;
+  }
+  .listItem img {
+    width: 100% !important;
+    height: 147px !important;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .listContent {
+    margin-left: 0px;
+  }
+  .tag {
+    margin-top: 12px;
+    margin-left: 0px;
+  }
+  .listingInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+  }
+}

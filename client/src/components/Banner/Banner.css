@@ -1,0 +1,21 @@
+.banner_img {
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.banner {
+  margin-top: 90px;
+  text-align: center;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner_img {
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
